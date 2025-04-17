@@ -1,0 +1,11 @@
+/* .swiper-button-prev,
+.swiper-button-next{
+    background-color: red;
+    border-radius: 100%;
+} */
+.sliderHome{
+    overflow: inherit!important;
+}
+.swiper {
+    overflow: visible !important;
+  }

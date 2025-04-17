@@ -1,0 +1,26 @@
+.searchBox {
+    padding: 3px 10px;
+}
+
+.searchBox>input {
+    padding: 4px;
+    border: none;
+}
+
+
+.searchBox input::placeholder{
+  color: #373737 !important;
+}
+
+.searsh-btn{
+  position: absolute!important;
+  top:5px;
+  right:5px;
+  z-index: 50;
+  width:31px!important;
+  min-width:31px!important;
+  height:31px!important;
+  border-radius:100%!important;
+  padding: 2px 0px!important;
+  color: black!important;
+}
