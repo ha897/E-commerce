@@ -23,19 +23,20 @@ body {
     color: rgba(0, 0, 0, 0.9);
     overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
     width: 8px !important;
     height: 8px !important;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background: #ff5252;
-  }
-  
-  ::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track {
     background: #fff;
-  }
-  
+}
+
 .bg-org {
     background-color: #ff5252;
 }
@@ -59,6 +60,10 @@ body {
     align-items: center;
 }
 
+.gap-1 {
+    gap: 0.25rem;
+}
+
 .gap-2 {
     gap: 0.5rem;
 }
@@ -73,6 +78,12 @@ body {
 
 .gap-5 {
     gap: 1.25rem;
+}
+.gap-6 {
+    gap: 1.5rem;
+}
+.gap-7 {
+    gap: 1.75rem;
 }
 
 .gap-8 {
@@ -90,33 +101,54 @@ body {
 }
 
 .py-3 {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
 }
 
 .py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
 }
+
 .py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
+}
+
+.py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .py-7 {
     padding-top: 1.75rem !important;
     padding-bottom: 1.75rem !important;
 }
+
 .py-8 {
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
 }
+
 .py-16 {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
 }
+
+.pt-0 {
+    padding-top: 0px !important;
+}
+
+.pt-2 {
+    padding-top: 0.5rem !important;
+}
+
 .pt-4 {
     padding-top: 1rem !important;
+}
+
+.p-1 {
+    padding: 0.25rem;
 }
 
 .p-2 {
@@ -126,10 +158,29 @@ body {
 .p-3 {
     padding: 0.75rem;
 }
+
 .p-4 {
     padding: 1rem;
 }
 
+.p-5 {
+    padding: 1.25rem;
+}
+.p-8 {
+    padding: 2rem;
+}
+
+.pb-8 {
+    padding-bottom: 2rem !important;
+}
+
+.pb-4 {
+    padding-bottom: 1rem !important;
+}
+
+.pb-5 {
+    padding-bottom: 1.25rem !important;
+}
 
 .transition {
     transition: all 0.3s ease;
@@ -149,14 +200,30 @@ body {
 
 }
 
+.text-white {
+    color: white !important;
+
+}
+
 .pl-3 {
     padding-left: 0.75rem;
+}
+.pl-4 {
+    padding-left: 1rem;
 }
 
 .pl-5 {
     padding-left: 1.25rem;
 }
 
+.pl-8 {
+    padding-left: 2rem;
+}
+
+.px-1 {
+    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
+}
 .px-2 {
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
@@ -167,17 +234,62 @@ body {
     padding-right: 0.75rem !important;
 }
 
+.pr-8 {
+    padding-right: 2rem !important;
+}
+.pr-4 {
+    padding-right: 1rem !important;
+}
+
+.m-0 {
+    margin: 0rem !important;
+}
 .mb-1 {
     margin-bottom: 0.25rem !important;
 }
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.mb-3 {
+    margin-bottom: 0.75rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 1.25rem !important;
+}
+
 .mb-7 {
     margin-bottom: 1.75rem !important;
+}
+
+.mt-1 {
+    margin-top: 0.25rem !important;
 }
 
 .mt-3 {
     margin-top: 0.75rem !important;
 }
-
+.mt-4 {
+    margin-top: 1rem !important;
+}
+.mt-5 {
+    margin-top: 1.25rem !important;
+}
+.ml-auto{
+    margin-left:auto!important;
+}
+.mr-auto{
+    margin-right:auto!important;
+}
+.m-auto{
+    margin:auto!important;
+}
 nav ul button {
     text-transform: capitalize !important;
     /* color:rgba(0, 0,0, 0.7)!important; */
@@ -238,13 +350,15 @@ nav ul button:hover .MuiTouchRipple-root {
 .homeCatSlider .swiper-button-next::after {
     font-size: 16px !important;
 }
+
 .smlBtn .swiper-button-prev,
 .smlBtn .swiper-button-next {
-  width: 30px !important;
-  height: 30px !important;
-  min-width: 30px !important;
-  top:55%!important;
+    width: 30px !important;
+    height: 30px !important;
+    min-width: 30px !important;
+    top: 55% !important;
 }
+
 /* b */
 .smlBtn .swiper-button-next:hover,
 .smlBtn .swiper-button-prev:hover {
@@ -255,10 +369,12 @@ nav ul button:hover .MuiTouchRipple-root {
 .smlBtn .swiper-button-prev:hover::after {
     color: #fff !important;
 }
+
 .smlBtn .swiper-button-next::after,
 .smlBtn .swiper-button-prev::after {
-    font-size: 18px!important;
+    font-size: 18px !important;
 }
+
 /* a */
 .homeCatSlider .swiper-button-prev {
     left: -10px !important;
@@ -278,19 +394,73 @@ nav ul button:hover .MuiTouchRipple-root {
 .homeCatSlider .swiper-button-prev:hover::after {
     color: #fff !important;
 }
+
 .homeCatSlider .item {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
-  
+
 .homeCatSlider .item:hover img {
-    transform:scale(1.1);
+    transform: scale(1.1);
 }
 
-.rounded-lg{
+.rounded-lg {
     border-radius: 0.5rem;
 }
 
-.bannerBox:hover img{
+.bannerBox:hover img {
     transform: scale(1.05) rotate(1deg);
+
+}
+
+.css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #ff5252 !important;
+
+}
+
+.MuiTabs-indicator {
+    background-color: #ff5252 !important;
+}
+
+.rounded-md {
+    border-radius: 0.375rem;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.productsSlider .swiper-wrapper {
+    padding: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.text-primary {
+    color: #ff5252;
+}
+
+.bg-primary {
+    background-color: #ff5252;
+}
+
+.text-gray-500 {
+    color: #6B7280;
+}
+
+.text-black {
+    color: black;
+}
+
+.btn-org {
+    background: #ff5252!important;
+    color: #ffffff!important;
+    font-weight: 500;
+    font-size: 16px;
+    padding:7px 20px!important;
+}
+
+.MuiCheckbox-root{
+    padding:6px!important;
 
 }

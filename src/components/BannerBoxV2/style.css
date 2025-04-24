@@ -1,0 +1,28 @@
+.bannerBoxV2{
+    height: 210px;
+    width: 100%!important;
+}
+
+.bannerBoxV2 img{
+    display: block;
+    width: 100%!important;
+}
+.bannerBoxV2:hover img{
+    transform: scale(1.05);
+}
+.bannerBoxV2 .infoV2{
+    width: 60%;
+    height: 100%;
+}
+.bannerBoxV2 .infoV2.right{
+    top:0;
+    right:0;
+}
+.bannerBoxV2 .infoV2.left{
+    top:0;
+    left:0;
+
+}
+.bannerBoxV2 a{
+    text-decoration: underline!important;
+}

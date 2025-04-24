@@ -1,0 +1,35 @@
+footer div:hover>svg {
+    color: #ff5252;
+    transform: translateY(-1px);
+    bottom: 12px;
+}
+
+
+
+footer .subscribe-form>input:focus {
+    border-color: rgba(0, 0, 0, 0.3);
+
+}
+
+footer .subscribe-form>input::placeholder {
+    font-size: 14px;
+}
+
+footer #root>div>footer>div>div.footer.flex.items-center.py-8>div.part3.w-\[35\%\].flex.items-center.pl-8.flex-col.pr-8>form>label>span.MuiButtonBase-root.MuiCheckbox-root.MuiCheckbox-colorPrimary.MuiCheckbox-sizeMedium.PrivateSwitchBase-root.MuiCheckbox-root.MuiCheckbox-colorPrimary.MuiCheckbox-sizeMedium.Mui-checked.MuiCheckbox-root.MuiCheckbox-colorPrimary.MuiCheckbox-sizeMedium.css-imrjgg-MuiButtonBase-root-MuiCheckbox-root>svg {
+    color: #ff5252;
+}
+
+footer #root>div>footer>div>div.footer.flex.items-center.py-8>div.part3.w-\[35\%\].flex.items-center.pl-8.flex-col.pr-8>form>label>span.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-rizt0-MuiTypography-root {
+    font-size: 13px !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+footer .social-btn {
+    color: #000 !important;
+
+}
+
+footer .social-btn:hover {
+    color: #fff !important;
+    background-color: #ff5252;
+}

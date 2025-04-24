@@ -25,7 +25,7 @@ const HomeCatSlider = () => {
                         <Link to="/" className="text-black no-underline">
                         <div className="item py-7 px-3 bg-white rounded-sm text-center flex items-center justify-center flex-col">
                         <img src="https://serviceapi.spicezgold.com/download/1744509970781_fash.png" className="transition w-[60px]" />
-                            <h3 className="text-[16px] font-[500] mt-3">Smart Tablet</h3>
+                            <h3 className="text-[16px] font-[500] mt-3">Fashon</h3>
                         </div>
                         </Link>
 

@@ -3,9 +3,10 @@
     background-color: red;
     border-radius: 100%;
 } */
-.sliderHome{
+.sliderHome .sliderHome{
     overflow: inherit!important;
 }
-.swiper {
+.sliderHome .swiper {
     overflow: visible !important;
   }
+  

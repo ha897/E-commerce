@@ -1,0 +1,43 @@
+.mySwiperV2 .swiper-pagination-bullet-active{
+    background-color: #ff5252 !important;
+}
+
+.mySwiperV2 .swiper-wrapper {
+    overflow: hidden!important;
+}
+.swiperSlide-item .info{
+    top:0; 
+    right:-100%;
+    opacity: 0;
+    /* transition: all 0.7s ease; */
+    
+}
+
+.mySwiperV2 .swiper-slide-active .info{
+    top:0; 
+    right:0;
+    opacity: 1;
+}
+
+.mySwiperV2 .swiperSlide-item .info > *{
+    position: relative;
+    top: 0;
+    right: -100%;
+}
+.mySwiperV2 .swiperSlide-item .info > *:first-child{
+    transition: all 0.7s ease;
+}
+.mySwiperV2 .swiperSlide-item .info > *:nth-child(2){
+    transition: all 0.9s ease;
+}
+.mySwiperV2 .swiperSlide-item .info > *:nth-child(3){
+    transition: all 1.1s ease;
+}
+.mySwiperV2 .swiperSlide-item .info > *:nth-child(4){
+    transition: all 1.3s ease;
+}
+.mySwiperV2 .swiper-slide-active .info  *{
+    position: relative;
+    top: 0;
+    right: 0;
+}

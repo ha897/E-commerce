@@ -1,29 +1,36 @@
-.category-panel{
-    text-transform: capitalize!important; 
+nav .category-panel {
+    text-transform: capitalize !important;
 }
-.category-panel .submenu{
-/* display: none!important; */
+
+nav .category-panel .submenu {
+    /* display: none!important; */
 }
-.col_2 > .nav li:hover .submenu{
-    opacity: 1!important;
-    visibility:visible!important;
+
+nav .col_2>.nav li:hover .submenu {
+    opacity: 1 !important;
+    visibility: visible !important;
 }
-.col_2 > .nav li .submenu{
+
+nav .col_2>.nav li .submenu {
     visibility: hidden;
-    z-index: 1000!important;
+    z-index: 1000 !important;
 }
-    .col_2 > .nav li .submenu button{
-    font-weight: 400!important;
+
+nav .col_2>.nav li .submenu button {
+    font-weight: 400 !important;
 }
-.col_2 > .nav li button:hover{
-color: #ff5252!important;
+
+nav .col_2>.nav li button:hover {
+    color: #ff5252 !important;
 }
-.col_2 > .nav li .submenu li .iner-submenu{
+
+nav .col_2>.nav li .submenu li .iner-submenu {
     left: 120%;
-    visibility:hidden;
+    visibility: hidden;
 }
-.col_2 > .nav li .submenu li:hover .iner-submenu{
-    left: 100%!important;
-    opacity: 1!important;
-    visibility:visible!important;
+
+nav .col_2>.nav li .submenu li:hover .iner-submenu {
+    left: 100% !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }

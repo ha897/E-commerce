@@ -14,7 +14,8 @@ const Navigation = () => {
     //     setIsOpenCategoryPanel(!isOpenCategoryPanel)
     // }
     return (
-        <nav className="py-2">
+        // <nav className="py-2">
+        <nav >
             {/* يمكن gap 8 */}
             <div className="container flex items-center justify-contint gap-8">
                 <div className='col_1 w-[20%]'>
@@ -29,7 +30,7 @@ const Navigation = () => {
                     <ul className="flex items-center gap-3 nav">
                         <li className="list-none">
                             <Link to="/" className="link transition text-[14px] font-[500]">
-                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)]">
+                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)] py-4">
                                     Home
                                 </Button>
                             </Link>
@@ -37,7 +38,7 @@ const Navigation = () => {
                         </li>
                         <li className="list-none relative">
                             <Link to="/" className="text-black gap-2 link transition text-[14px] font-[500]">
-                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)]">
+                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)] py-4">
                                     Fashion
                                 </Button>
                             </Link>
@@ -178,49 +179,49 @@ const Navigation = () => {
                         </li>
                         <li className="list-none">
                             <Link to="/" className="text-black gap-2 link transition text-[14px] font-[500]">
-                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)]">
+                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)]  py-4">
                                     Electronics
                                 </Button>
                             </Link>
                         </li>
                         <li className="list-none">
                             <Link to="/" className="text-black gap-2 link transition text-[14px] font-[500]">
-                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)]">
+                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)] py-4">
                                     Bags
                                 </Button>
                             </Link>
                         </li>
                         <li className="list-none">
                             <Link to="/" className="text-black gap-2 link transition text-[14px] font-[500]">
-                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)]">
+                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)]  y-4">
                                     Footwear
                                 </Button>
                             </Link>
                         </li>
                         <li className="list-none">
                             <Link to="/" className="text-black gap-2 link transition text-[14px] font-[500]">
-                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)]">
+                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)] py-4">
                                     Groceries
                                 </Button>
                             </Link>
                         </li>
                         <li className="list-none">
                             <Link to="/" className="text-black gap-2 link transition text-[14px] font-[500]">
-                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)]">
+                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)] py-4">
                                     Beauty
                                 </Button>
                             </Link>
                         </li>
                         <li className="list-none">
                             <Link to="/" className="text-black gap-2 link transition text-[14px] font-[500]">
-                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)]">
+                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)] py-4">
                                     Wellness
                                 </Button>
                             </Link>
                         </li>
                         <li className="list-none">
                             <Link to="/" className="text-black gap-2 link transition text-[14px] font-[500]">
-                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)]">
+                                <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.7)] py-4">
                                     Jewellery
                                 </Button>
                             </Link>
