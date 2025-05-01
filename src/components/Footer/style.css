@@ -33,3 +33,7 @@ footer .social-btn:hover {
     color: #fff !important;
     background-color: #ff5252;
 }
+
+footer  .subscribe-form label span{
+    font-size: 12px !important;
+}

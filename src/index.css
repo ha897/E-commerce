@@ -20,10 +20,13 @@ body {
     font-optical-sizing: auto;
     margin: 0px;
     background-color: #f5f0f0;
-    color: rgba(0, 0, 0, 0.9);
+    color: #434343;
     overflow-x: hidden;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
 ::-webkit-scrollbar {
     width: 8px !important;
     height: 8px !important;
@@ -111,13 +114,13 @@ body {
 }
 
 .py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-top: 1.25rem!important;
+    padding-bottom: 1.25rem!important;
 }
 
 .py-6 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
 }
 
 .py-7 {
@@ -128,6 +131,10 @@ body {
 .py-8 {
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
+}
+.py-10 {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
 }
 
 .py-16 {
@@ -145,6 +152,9 @@ body {
 
 .pt-4 {
     padding-top: 1rem !important;
+}
+.pt-10 {
+    padding-top: 2.5rem !important;
 }
 
 .p-1 {
@@ -170,8 +180,14 @@ body {
     padding: 2rem;
 }
 
+.pb-0 {
+    padding-bottom: 0rem !important;
+}
 .pb-8 {
     padding-bottom: 2rem !important;
+}
+.pb-2 {
+    padding-bottom: 0.5rem !important;
 }
 
 .pb-4 {
@@ -219,6 +235,9 @@ body {
 .pl-8 {
     padding-left: 2rem;
 }
+.pl-10 {
+    padding-left: 2.5rem;
+}
 
 .px-1 {
     padding-left: 0.25rem !important;
@@ -233,16 +252,35 @@ body {
     padding-left: 0.75rem !important;
     padding-right: 0.75rem !important;
 }
+.px-8 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+.px-10 {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+}
 
+
+.pr-4 {
+    padding-right: 1rem !important;
+}
 .pr-8 {
     padding-right: 2rem !important;
 }
-.pr-4 {
-    padding-right: 1rem !important;
+
+.pr-10 {
+    padding-right: 2.5rem !important;
 }
 
 .m-0 {
     margin: 0rem !important;
+}
+.m-auto {
+    margin: auto !important;
+}
+.mb-0 {
+    margin-bottom: 0rem !important;
 }
 .mb-1 {
     margin-bottom: 0.25rem !important;
@@ -268,6 +306,9 @@ body {
     margin-bottom: 1.75rem !important;
 }
 
+.mt-0 {
+    margin-top: 0.rem !important;
+}
 .mt-1 {
     margin-top: 0.25rem !important;
 }
@@ -281,15 +322,22 @@ body {
 .mt-5 {
     margin-top: 1.25rem !important;
 }
+.mt-6 {
+    margin-top: 1.5rem !important;
+}
+.mt-10 {
+    margin-top: 2.5rem !important;
+}
 .ml-auto{
     margin-left:auto!important;
 }
 .mr-auto{
     margin-right:auto!important;
 }
-.m-auto{
-    margin:auto!important;
+.ml-0{
+    margin-left:0px!important;
 }
+
 nav ul button {
     text-transform: capitalize !important;
     /* color:rgba(0, 0,0, 0.7)!important; */
@@ -359,16 +407,6 @@ nav ul button:hover .MuiTouchRipple-root {
     top: 55% !important;
 }
 
-/* b */
-.smlBtn .swiper-button-next:hover,
-.smlBtn .swiper-button-prev:hover {
-    background-color: #ff5252 !important;
-}
-
-.smlBtn .swiper-button-next:hover::after,
-.smlBtn .swiper-button-prev:hover::after {
-    color: #fff !important;
-}
 
 .smlBtn .swiper-button-next::after,
 .smlBtn .swiper-button-prev::after {
@@ -437,15 +475,18 @@ nav ul button:hover .MuiTouchRipple-root {
 }
 
 .text-primary {
-    color: #ff5252;
+    color: #ff5252!important;
 }
 
 .bg-primary {
-    background-color: #ff5252;
+    background-color: #ff5252!important;
 }
 
 .text-gray-500 {
     color: #6B7280;
+}
+.text-gray-400 {
+    color: #9ca3af;
 }
 
 .text-black {
@@ -459,8 +500,69 @@ nav ul button:hover .MuiTouchRipple-root {
     font-size: 16px;
     padding:7px 20px!important;
 }
+.btn-org-2 {
+    background: #ff5252!important;
+    color: #ffffff!important;
+    font-weight: 500;
+    font-size: 16px;
+}
+.btn-org:hover {
+    background: #171717 !important;
+}
 
 .MuiCheckbox-root{
     padding:6px!important;
 
+}
+.ml-2px{
+margin-left: 2px!important;
+}
+
+.Mui-selected.MuiPaginationItem-page {
+    background-color: #ff5252 !important;
+    color: #fff !important; 
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #ff5252 !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: #ff5252!important;
+}
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
+color: #fff!important;
+}
+.text-green-600{
+    color: #16a34a!important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.closeDialogContent{
+    position: absolute!important;
+    width: 50px!important;
+    min-width: 50px!important;
+    height: 50px!important;
+    top: 12px;
+    right: 12px;
+    border-radius: 100%!important;
+    color: black!important;
+    font-size: 30px!important;
+}
+
+
+.card form .password input{
+    padding-right: 3rem!important;
+}
+
+.showPasswordButton{
+    top:7px;
+right: 4px!important;
 }

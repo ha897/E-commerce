@@ -182,22 +182,22 @@ const Footer = () => {
             <div className="container flex items-center justify-between">
                 <ul className="flex items-center gap-2">
                     <li className="list-none">
-                        <Link to="/" target="_blank" className="social-btn transition flex items-center justify-center w-[35px] h-[35px] rounded-full border border-[rgba(0,0,0,0.1)]">
+                        <Link to="/" target="_blank" className="link social-btn transition flex items-center justify-center w-[35px] h-[35px] rounded-full border border-[rgba(0,0,0,0.1)]">
                             <FaFacebookF className="text-[20px]" />
                         </Link>
                     </li>
                     <li className="list-none">
-                        <Link to="/" target="_blank" className="social-btn transition flex items-center justify-center w-[35px] h-[35px] rounded-full border border-[rgba(0,0,0,0.1)]">
+                        <Link to="/" target="_blank" className="link social-btn transition flex items-center justify-center w-[35px] h-[35px] rounded-full border border-[rgba(0,0,0,0.1)]">
                             <FiYoutube className="text-[20px]" />
                         </Link>
                     </li>
                     <li className="list-none">
-                        <Link to="/" target="_blank" className="social-btn transition flex items-center justify-center w-[35px] h-[35px] rounded-full border border-[rgba(0,0,0,0.1)]">
+                        <Link to="/" target="_blank" className="link social-btn transition flex items-center justify-center w-[35px] h-[35px] rounded-full border border-[rgba(0,0,0,0.1)]">
                             <FaPinterestP className="text-[20px]" />
                         </Link>
                     </li>
                     <li className="list-none">
-                        <Link to="/" target="_blank" className="social-btn transition flex items-center justify-center w-[35px] h-[35px] rounded-full border border-[rgba(0,0,0,0.1)]">
+                        <Link to="/" target="_blank" className="link social-btn transition flex items-center justify-center w-[35px] h-[35px] rounded-full border border-[rgba(0,0,0,0.1)]">
                             <FaInstagram className="text-[20px]" />
                         </Link>
                     </li>

@@ -1,0 +1,43 @@
+.productsSwiper .swiper-button-next {
+    right: 0px !important;
+    /* top:inherit!important; */
+    top: 99.5% !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+    height: 30px !important;
+    z-index: 1 !important;
+}
+
+.productsSwiper .swiper-button-next::after,
+.productsSwiper .swiper-button-prev::after {
+    transform: rotate(90deg) !important;
+}
+
+.productsSwiper .swiper-button-prev {
+    left: 0px !important;
+    top: 20px !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+    height: 30px !important;
+    z-index: 1 !important;
+}
+
+.productsSwiper .item:hover img {
+    transform: scale(1.1) !important;
+}
+
+.productsSwiper .swiper-slide-active .item,
+.productsSwiper .swiper-slide-active .item {}
+
+/* في ملف style.css */
+.productViewSwiper .swiper-slide-thumb-active {
+    opacity: 1 !important;
+    border: 2px solid #000 !important;
+}
+
+.productViewSwiper .swiper-slide {
+    transition: transform 0.5s ease-in-out;
+}
+#root > section > div > div > div.productZoomContainer.w-\[15\%\] > div > div > div.swiper-wrapper{
+    padding :36px 0px!important;
+}

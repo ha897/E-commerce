@@ -11,9 +11,7 @@ const HomeSlider = () => {
     return (
         <div className="sliderHome py-3 w-full">
             <div className="container">
-
                 <Swiper
-                
                     // install Swiper modules
                     autoplay={{
                         delay: 2500,
@@ -23,8 +21,7 @@ const HomeSlider = () => {
                     spaceBetween={10}
                     navigation={true}
                     loop={true}
-
-                    className='mySwiperHome'
+                    className="mySwiperHome"
                 >
                     <SwiperSlide>
                         <div className="item rounded-[20px] overflow-hidden">

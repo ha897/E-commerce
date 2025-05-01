@@ -12,7 +12,6 @@ import { FaRegHeart } from "react-icons/fa";
 import Badge from '@mui/material/Badge';
 import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
-// import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { MdOutlineShoppingCart } from "react-icons/md";
 
 import { IoMdGitCompare } from "react-icons/io";
@@ -64,7 +63,7 @@ const Header = () => {
                         <ul className="flex items-center gap-3 w-full justify-end">
                             <li className="list-none">
                                 {/* if no use sing-in delete */}
-                                <Link className="sing-in link transition text-[15px] font-[500]" to="/">Sign In</Link> | <Link className="link transition text-[15px] font-[500]" to="/">Regester</Link>
+                                <Link className="sing-in link transition text-[15px] font-[500]" to="/login">Sign In</Link> | <Link className="link transition text-[15px] font-[500]" to="/register">Regester</Link>
                             </li>
                             <li className="list-none">
                                 <Tooltip title="Compare">

@@ -11,10 +11,9 @@ import BannerBoxV2 from "../../components/BannerBoxV2";
 
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import Box from '@mui/material/Box';
+
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Link } from "react-router-dom";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -31,15 +30,12 @@ const Home = () => {
     };
     return (
         <div className='py-5 w-full'>
-
             <HomeSlider />
             <section className="py-6">
                 <div className="container flex gap-5">
                     <div className='part1 w-[70%]'>
                     <HomeBannerV2 />
                     </div>
-                    {/* errr  */}
-                    
                     <div className='part2 w-[30%] flex flex-col items-center justify-between gap-6'>
                     <BannerBoxV2 info="left" image="https://demos.codezeel.com/prestashop/PRS21/PRS210502/img/cms/sub-banner-1.jpg"/>
                     <BannerBoxV2 info="right" image="https://serviceapi.spicezgold.com/download/1741664665391_1741497254110_New_Project_50.jpg"/>

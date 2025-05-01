@@ -1,0 +1,3 @@
+.qtyBox input:focus {
+  outline: none!important;    
+}

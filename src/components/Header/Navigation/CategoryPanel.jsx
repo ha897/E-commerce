@@ -5,9 +5,6 @@ import Button from '@mui/material/Button';
 // import InboxIcon from '@mui/icons-material/MoveToInbox';
 // import MailIcon from '@mui/icons-material/Mail';
 import { IoCloseSharp } from "react-icons/io5";
-import { Link } from "react-router-dom";
-import { FaRegSquarePlus } from "react-icons/fa6";
-import { FaRegSquareMinus } from "react-icons/fa6";
 import CategoryCollapse from "../../CategoryCollapse"
 const CategoryPanel = (props) => {
     const [open, setOpen] = React.useState(false);
