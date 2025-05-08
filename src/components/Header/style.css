@@ -2,3 +2,10 @@ header .col3 .sing-in{
     padding: 7px;
 }
  
+header .main-user-icon{
+    padding:9px 14px!important;
+}
+
+#account-menu > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation0.MuiPopover-paper.MuiMenu-paper.css-x6cj71-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
+width:200px;
+}

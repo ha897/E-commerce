@@ -48,7 +48,7 @@ const Sidebar = () => {
                 </h3>
                 {/* <CategoryCollapse/> */}
                 <Collapse isOpened={isOpenCategoryFilter}>
-                    <div className="scroll relative flex flex-col">
+                    <div className="scroll scroll-gray relative flex flex-col">
                         <FormControlLabel control={<Checkbox size="small" />} label="Fashion" className="w-full ml-2px" />
                         <FormControlLabel control={<Checkbox size="small" />} label="Electronics" className="w-full ml-2px" />
                         <FormControlLabel control={<Checkbox size="small" />} label="Bags" className="w-full ml-2px" />
@@ -70,7 +70,7 @@ const Sidebar = () => {
                 </h3>
                 {/* <CategoryCollapse/> */}
                 <Collapse isOpened={isOpenAvilabilityFilter}>
-                    <div className="scroll relative flex flex-col">
+                    <div className="scroll scroll-gray relative flex flex-col">
                         <FormControlLabel
                             control={<Checkbox size="small" />}
                             label="Avilable (17)"
@@ -99,7 +99,7 @@ const Sidebar = () => {
                 </h3>
                 {/* <CategoryCollapse/> */}
                 <Collapse isOpened={isOpenSizeFilter}>
-                    <div className="scroll relative flex flex-col">
+                    <div className="scroll scroll-gray relative flex flex-col">
                         <FormControlLabel
                             control={<Checkbox size="small" />}
                             label="Small (17)"

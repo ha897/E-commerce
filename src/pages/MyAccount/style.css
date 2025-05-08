@@ -1,0 +1,13 @@
+.profile-img-cover{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.profile-img-cover:hover{
+    opacity: 1;
+}
+.phone-number-field .form-control{
+    width:100%!important;
+height: 40px;
+}
